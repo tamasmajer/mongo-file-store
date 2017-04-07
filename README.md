@@ -60,7 +60,7 @@ hawaii>
   down <into_local_dir> - Downloads server folder into a new local directory.
   connect <optional_mongo_db_nick_name> <optional_mongo_db_URI_with_password>
     - Connects to a mongo db.
-    - Saves the name URI pair into the mongo-file-store.txt file.
+    - Saves the name URI pair into the local mongo-file-store.txt file.
     - If already saved it is enough to provide the name.
     - If you don't want to save the server provide only the URI.
     - To list all servers call it without parameters.
