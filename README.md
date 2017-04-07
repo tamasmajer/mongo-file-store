@@ -5,19 +5,19 @@ Provides familiar commands for managing the files on the server. My focus is onl
 ## Usage
 
 Install as a command:
-```bash
+```
 npm install -g
 ```
 
 Go to the directory where the uploadable folders are.
 
-```bash
+```
 mongo-file-store
 ```
 
 Press enter for help. This will print:
 
-```bash
+```
 >
 connect <optional_mongo_db_nick_name> <optional_mongo_db_URI_with_password>
     - Connects to a mongo db.
@@ -29,13 +29,13 @@ connect <optional_mongo_db_nick_name> <optional_mongo_db_URI_with_password>
 
 Create and store a connection:
  
-```bash
+```
 connect hawaii mongodb://<name>:<password>/<domain>:<port>/<collection>
 ``` 
 
 If connected, press enter for help:
 
-```bash
+```
 hawaii>
 
  Commands:
