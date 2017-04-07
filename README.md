@@ -1,6 +1,13 @@
 # mongo-file-store
-Simple command line interface to MongoDB GridFS file store.
-Provides familiar commands for managing the files on the server. My focus is only on text files, which can also be accessed by their path through a driver like in a key value store, but can also be downloaded and edited locally.
+Simple command line interface for storing files on MongoDB using GridFS. 
+
+## Status
+
+Only have been tested with text files.
+
+Needs support for synchronization. 
+
+Should provide a driver simulating a key-value store.
 
 ## Usage
 
