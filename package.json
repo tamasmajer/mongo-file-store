@@ -1,0 +1,29 @@
+{
+  "name": "mongo-file-store",
+  "version": "0.0.1",
+  "description": "Simple file store in mongodb with GridFS",
+  "main": "index.js",
+  "bin": {
+    "mongo-file-store": "./index.js"
+  },
+  "engines" : {
+    "node" : ">=7.2.1"
+  },
+  "scripts": {
+    "start": "node --harmony-async-await index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamasmajer/mongo-file-store.git"
+  },
+  "author": "Tamas Majer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamasmajer/mongo-file-store/issues"
+  },
+  "homepage": "https://github.com/tamasmajer/mongo-file-store#readme",
+  "dependencies": {
+    "mongodb": "^2.2.25"
+  }
+}
